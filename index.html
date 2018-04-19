@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>require测试</title>
+  <style>
+    [v-cloak] {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    {{aa}}
+    <button type="button" class="btn btn-primary" @click="getData">调用POST接口</button>
+    <button type="button" class="btn btn-primary" @click="getGetData">调用GET接口</button>
+    <home></home>
+  </div>
+  <script data-main="js/script/main" src="js/lib/require.js"></script> 
+</body>
+</html>
