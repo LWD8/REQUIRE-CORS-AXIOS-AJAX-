@@ -1,6 +1,4 @@
-# REQUIRE-CORS-AXIOS-AJAX-
-
-使用requireJS分块
+##使用requireJS分块
 
 js/script/cors    CORS请求
 
